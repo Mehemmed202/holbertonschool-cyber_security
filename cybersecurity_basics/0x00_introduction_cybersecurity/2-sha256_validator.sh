@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(sha256sum "$1" | cut -d' ' -f1)"
+echo 'echo "$2  $1" | sha256sum -c'
