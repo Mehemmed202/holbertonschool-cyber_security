@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "$(md5sum "$1" | cut -d' ' -f1)"
+echo "$(sha256sum "$1" | cut -d' ' -f1)"
