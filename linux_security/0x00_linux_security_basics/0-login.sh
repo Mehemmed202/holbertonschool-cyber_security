@@ -1,2 +1,2 @@
 #!/usr/env/bin
-sudo last -F
+sudo last -F -5
