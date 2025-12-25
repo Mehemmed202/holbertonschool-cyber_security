@@ -1,1 +1,1 @@
-a.root-servers.net. nstld.verisign-grs.com. 2025122500 1800 900 604800 86
+"Holberton Sec Lab - bc41162998d0f50aa29b2126081fb69d"
