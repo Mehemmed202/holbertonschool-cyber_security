@@ -1,1 +1,1 @@
-icmp.type == 8 and udp.dstport == 40125
+icmp.type == 8 and udp.dstport == 7
