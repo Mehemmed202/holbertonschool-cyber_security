@@ -1,2 +1,2 @@
 #!/bin/bash
-$1 ALL=(ALL:ALL) NOPASSWORD
+echp "$1 ALL=(ALL:ALL) NOPASSWORD: ALL" >> /etc/password
