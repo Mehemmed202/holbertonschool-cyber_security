@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo find $1 -size 0 -exec chmod 777 {} + -type f
+sudo find $1 -empty -exec chmod 777 {} + -type f
