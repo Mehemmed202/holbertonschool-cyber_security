@@ -1,2 +1,2 @@
 #!/bin/bash
-semanage -l | grep -i "http"
+semanage port -l | grep -i "http"
