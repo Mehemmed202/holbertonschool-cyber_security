@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo semanage boolean -t httpd_can_sendmail --on
+setsebool -P httpd_can_sendmail on
