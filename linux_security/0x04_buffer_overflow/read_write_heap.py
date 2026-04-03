@@ -46,7 +46,6 @@ def main():
 
             mem_file.seek(start + index)
             mem_file.write(replace_str.encode('ascii'))
-            
             if len(replace_str) < len(search_str):
                 mem_file.write(b'\0')
 
