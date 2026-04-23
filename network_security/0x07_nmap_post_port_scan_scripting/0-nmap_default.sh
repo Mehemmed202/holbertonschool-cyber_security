@@ -1,2 +1,2 @@
 #!/bin/bash
-nmap -sC scanme.nmap.org
+nmap --script default scanme.nmap.org
