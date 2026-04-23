@@ -1,2 +1,2 @@
 #!/bin/bash
-nmap --script defaul $1
+nmap -sC $1
