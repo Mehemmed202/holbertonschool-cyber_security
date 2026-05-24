@@ -44,7 +44,7 @@ if options[:add]
 end
 
 if options[:list]
-  put "Tasks:"
+  puts "Tasks:"
   tasks.each_with_index do |task, index|
     puts "#{index + 1}. #{task}"
   end
