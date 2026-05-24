@@ -4,6 +4,7 @@ def print_arguments
   if args.empty?
     puts "No arguments provided."
   else
+    puts "Arguments:"
     args.each_with_index do |arg, index|
       puts "#{index + 1}. #{arg}"
     end
