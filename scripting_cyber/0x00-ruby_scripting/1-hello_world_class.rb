@@ -1,5 +1,5 @@
 class Helloword
-  def initilaze
+  def initialize
     @message="Hello, World!"
   end
   
