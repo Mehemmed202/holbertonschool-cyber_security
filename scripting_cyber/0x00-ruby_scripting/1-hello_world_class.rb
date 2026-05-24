@@ -1,4 +1,4 @@
-class Helloword
+class Helloworld
   def initialize
     @message="Hello, World!"
   end
